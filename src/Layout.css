@@ -1,0 +1,48 @@
+.background {
+  background-image: url(/images/webdev.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%; /* Make sure the width covers the entire viewport */
+  position: relative;
+}
+
+.background-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.welcome {
+  font-family: "Handlee", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.greeting {
+  font-family: 'Poppins', sans-serif; /* or any font you choose */
+  font-weight: 500; /* For a bit more emphasis */
+  font-size: 1.3rem; /* Adjust based on design */
+  line-height: 1.6; /* Improves readability */
+  color: white; /* To ensure the text stands out on the background */
+  text-align: center;
+  background-color: rgb(150, 150, 88);
+}
+
+/* Layout.css */
+.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none !important; /* Remove shadow if you want it completely transparent */
+}
+
+.navbar-transparent .nav-link {
+  color: white !important; /* Adjust the text color if necessary */
+}
+
+.navbar-transparent .navbar-brand {
+  color: white !important; /* Adjust the brand color as well */
+}
