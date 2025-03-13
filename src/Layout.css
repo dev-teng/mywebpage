@@ -14,6 +14,19 @@
   min-height: 100vh;
   width: 100%; /* Make sure the width covers the entire viewport */
   position: relative;
+  z-index: 1;
+}
+
+.aboutBackground::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+  z-index: -1;
 }
 
 .aboutContent {
@@ -135,19 +148,17 @@
 }
 
 
-@media (min-width: 760px) and (max-width: 780px) {
+@media (min-width: 472px) and (max-width: 500px) {
   .container {
-    padding: 20px;           /* Add padding for smaller screens */
-    height: 100vh;           /* Full height of the viewport */
-    align-items: flex-start; /* Align content to the top */
-    justify-content: flex-start; /* Push content down slightly */
+    padding: 10px;           /* Adjust padding on smaller screens */
+    height: auto;            /* Adjust height to content */
+    align-items: flex-start; /* Align content to the top for better readability on small screens */
   }
 
   .frontEndContent {
     text-align: left;        /* Align text to the left on smaller screens */
     width: 100%;             /* Full width on mobile for better text wrapping */
     font-size: 1.1rem;       /* Slightly reduce font size for better readability on small screens */
-    margin-top: 20px;        /* Optional: Adds some space on top */
   }
 }
 
@@ -165,3 +176,4 @@
     font-size: 1rem;         /* Reduce font size further if needed */
   }
 }
+

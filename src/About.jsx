@@ -26,7 +26,7 @@ function About () {
                     intuitive to use, and functional. This involves writing 
                     code using languages such as HTML, CSS, and JavaScript
                     to build websites and web applications. Here's of what I typically do:
-                    HTML, CSS, JavaScript, Frameworks and Libraries like react js and bootstrap, Responsive Design
+                    HTML, CSS, JavaScript, Frameworks and Libraries like react js, bootstrap, Responsive Design
                     Browser Compatibility, Performance Optimization, Accessibility and Version Control
                     Overall, as a frontend developer, my goal is to create engaging and functional
                     user interfaces that meet the needs of both users and clients while adhering 
