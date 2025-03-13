@@ -15,7 +15,7 @@ function Navbar () {
                     <span class="toggler-icon bottom-bar"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-lg-0">
                           <li class="nav-item">
                             <Link to="/about" class="nav-link active" aria-current="page" href="#">About</Link>
                           </li>

@@ -7,13 +7,31 @@
   position: relative;
 }
 
+.aboutBackground {
+  background-image: url(/images/wood.avif);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%; /* Make sure the width covers the entire viewport */
+  position: relative;
+}
 
+.aboutContent {
+  position: relative !important;
+}
+
+.contentTitle {
+  position: absolute !important;
+  right: -27px;
+  top: 460px;
+}
 
 
 .welcome {
   font-family: "Handlee", cursive;
   font-weight: 600;
-  font-style: normal;
+ font-style: normal;
+ font-size: 1.8rem
 }
 
 .greeting {
@@ -24,6 +42,14 @@
   color: white; /* To ensure the text stands out on the background */
   text-align: center;
   background-color: rgb(150, 150, 88);
+}
+
+.frontEndContent {
+  font-family: 'Poppins', sans-serif; /* or any font you choose */
+  font-weight: 500; /* For a bit more emphasis */
+  font-size: 1.3rem; /* Adjust based on design */
+  line-height: 1.6; /* Improves readability */
+  color: white; 
 }
 
 /* Layout.css */
@@ -38,6 +64,11 @@
 
 .navbar-transparent .navbar-brand {
   color: white !important; /* Adjust the brand color as well */
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem !important;
 }
 
 
