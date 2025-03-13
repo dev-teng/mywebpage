@@ -19,7 +19,7 @@ function About () {
               </div>
           </div>
           <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
-            <div className="mt-5">
+            <div className="container mt-5">
               <h1 className="text-light">Hi I'm VINCENT <span className="text-success">LACERNA</span>👋🏻</h1>
               <p className="text-light frontEndContent">as a frontend developer, my primary responsibility
                     is to create user interfaces that are visually appealing,

@@ -50,6 +50,8 @@
   font-size: 1.3rem; /* Adjust based on design */
   line-height: 1.6; /* Improves readability */
   color: white; 
+  text-align: justify;
+  width: 90%;
 }
 
 /* Layout.css */
@@ -130,4 +132,36 @@
 /* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
   background-color: black;
+}
+
+
+@media (min-width: 760px) and (max-width: 780px) {
+  .container {
+    padding: 20px;           /* Add padding for smaller screens */
+    height: 100vh;           /* Full height of the viewport */
+    align-items: flex-start; /* Align content to the top */
+    justify-content: flex-start; /* Push content down slightly */
+  }
+
+  .frontEndContent {
+    text-align: left;        /* Align text to the left on smaller screens */
+    width: 100%;             /* Full width on mobile for better text wrapping */
+    font-size: 1.1rem;       /* Slightly reduce font size for better readability on small screens */
+    margin-top: 20px;        /* Optional: Adds some space on top */
+  }
+}
+
+/* Additional media query for smaller screens (less than 472px) */
+@media (max-width: 472px) {
+  .container {
+    padding: 10px;           /* Padding adjustment for very small screens */
+    height: auto;            /* Adjust height to content */
+    align-items: flex-start; /* Align content to the top */
+  }
+
+  .frontEndContent {
+    text-align: left;        /* Left-align text */
+    width: 100%;             /* Full width */
+    font-size: 1rem;         /* Reduce font size further if needed */
+  }
 }
