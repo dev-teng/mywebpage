@@ -5,18 +5,19 @@ function About () {
       <div className="row mt-5 g-0 justify-content-center align-items-center" >
           <div className="col-12 col-md-6 mt-5 aboutContent">
             <div className="m-5 d-flex justify-content-end">
-              <div className="card" style={{width: "25rem"}}>
-                <div className="card-body bg-success-subtle">
-                  <div className="bg-success rounded rounded-circle text-center">
-                    <img className="img-fluid rounded-cirle" src={Enteng} style={{width: "15rem"}} />
+                <div className="card" style={{width: "24rem"}}>
+                  <div className="card-body bg-success-subtle">
+                    <div className="bg-success rounded rounded-circle text-center">
+                      <img className="img-fluid rounded-cirle" src={Enteng} style={{width: "15rem"}} />
+                    </div>
                   </div>
                 </div>
-              </div>
+                <div className="bg-light me-5 rounded border border-success border-3 contentTitle shadow">
+                  <h2 className="text-success text-center p-3 rounded" style={{width: "24rem"}}>Front-End Developer</h2>
+                </div>
             </div>
 
-              <div className="bg-light me-5 rounded border border-success border-3 contentTitle shadow">
-                <h2 className="text-success text-center p-3 rounded" style={{width: "28rem"}}>Front-End Developer</h2>
-              </div>
+              
           </div>
           <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div className="container mt-5">
