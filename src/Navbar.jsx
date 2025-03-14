@@ -1,6 +1,9 @@
 import {Outlet, Link } from "react-router-dom";
 import "./Layout.css";
 import Logo from "/images/logo.png";
+import Gmail from "/images/gmail.webp";
+import Linkedin from "/images/linkedin.webp";
+import Instagram from "/images/instagram.webp";
 
 function Navbar () {
   return(
@@ -29,7 +32,24 @@ function Navbar () {
                 </div>
           </div>
       </nav>
+        
         <Outlet />
+        <div className="footer bg-dark text-center d-flex flex-column justify-content-center mt-auto">
+          <div className="row g-0">
+              <div className="col-md-12 border-bottom p-2">
+                <h5 className="text-light text-center quote">The journey of a thousand miles begins with a single step. — Lao Tzu</h5>
+              </div>
+              <div className="col-md-12">
+                <p className="text-light">@Copyright 2025. All rights served 
+                  <img className="img-fluid rounded rounded-circle bg-light ms-3 p-2" src={Gmail} style={{width: "2.5rem"}}/>
+                  <img className="img-fluid rounded rounded-circle ms-3 " src={Linkedin} style={{width: "2.5rem"}}/>
+                  <img className="img-fluid rounded rounded-circle ms-1" src={Instagram} style={{width: "4rem"}}/>
+                </p>
+              </div>
+          </div>
+          
+          
+        </div>
     </div>
     
   )
