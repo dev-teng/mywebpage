@@ -1,4 +1,4 @@
-import {Outlet, Link } from "react-router-dom";
+import {Outlet, Link, useLocation, useNavigate } from "react-router-dom";
 import "./Layout.css";
 import Logo from "/images/logo.png";
 import Gmail from "/images/gmail.webp";
@@ -6,11 +6,25 @@ import Linkedin from "/images/linkedin.webp";
 import Instagram from "/images/instagram.webp";
 
 function Navbar () {
+  let navigate= useNavigate();
+  let location = useLocation();
+
+  const handleNavigation = (route) => {
+    navigate(route)
+    window.scrollTo(0,0);
+  }
+
+  const isActive = (path) => {
+    return location.pathname === path? "underline" : "";
+  }
+
+
+
   return(
     <div>
       <nav class="navbar navbar-expand-lg navbar-transparent fixed-top shadow p-3">
           <div class="container-fluid">
-              <Link to="/" class="navbar-brand"><img className="img-fluid rounded rounded-circle" style={{width: "4rem"}} src={Logo} /></Link>
+              <Link to="/" onClick={handleNavigation} class="navbar-brand"><img className="img-fluid rounded rounded-circle" style={{width: "4rem"}} src={Logo} /></Link>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon top-bar"></span>
@@ -20,13 +34,13 @@ function Navbar () {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-lg-0">
                           <li class="nav-item">
-                            <Link to="/about" class="nav-link active" aria-current="page" href="#">About</Link>
+                            <Link  to="/about" onClick={handleNavigation} class={`nav-link active ${isActive("/about")}`} aria-current="page">About</Link>
                           </li>
                           <li class="nav-item">
-                            <Link to="/project" class="nav-link active" aria-current="page" href="#">Project</Link>
+                            <Link to="/project" onClick={handleNavigation} class={`nav-link active ${isActive("/project")}`} aria-current="page" >Project</Link>
                           </li>
                           <li class="nav-item">
-                            <Link to="/contact" class="nav-link active" aria-current="page" href="#">Contact</Link>
+                            <Link to="/contact" onClick={handleNavigation} class={`nav-link active ${isActive("/contact")}`} aria-current="page">Contact</Link>
                           </li>
                     </ul>
                 </div>

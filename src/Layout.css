@@ -66,6 +66,11 @@
 
 
 /* Navigation Bar*/
+.underline {
+  text-decoration: underline !important;
+  color: white !important;
+}
+
 .navbar-transparent {
   background-color: transparent !important;
   box-shadow: none !important; /* Remove shadow if you want it completely transparent */
