@@ -3,7 +3,7 @@ function About () {
   return(
     <div className="d-flex flex-column min-vh-100 aboutBackground">
       <div className="row mt-5 g-0 justify-content-center align-items-center" >
-          <div className="col-12 col-md-6 mt-5">
+          <div className="col-md-6 mt-5">
             <div className="m-5 d-flex justify-content-center">
               <div className="border border-success rounded p-2">
                 <div className="border border-success rounded p-2">
@@ -31,7 +31,7 @@ function About () {
               </div>
             </div>  
           </div>
-          <div className="col-12 col-md-6 mb-2">
+          <div className="col-md-6 mb-2">
             <div className="container">
                 <div className="container mt-5 me-5 border border-success rounded d-flex flex-column justify-content-center align-items-center">
                   <h1 className="text-light">Hi I'm VINCENT <span className="text-success">LACERNA</span>👋🏻</h1>

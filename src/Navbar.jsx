@@ -55,9 +55,9 @@ function Navbar () {
               </div>
               <div className="col-md-12">
                 <p className="text-light">@Copyright 2025. All rights served 
-                  <img className="img-fluid rounded rounded-circle bg-light ms-3 p-2" src={Gmail} style={{width: "2.5rem"}}/>
-                  <img className="img-fluid rounded rounded-circle ms-3 " src={Linkedin} style={{width: "2.5rem"}}/>
-                  <img className="img-fluid rounded rounded-circle ms-1" src={Instagram} style={{width: "4rem"}}/>
+                  <img className="img-fluid rounded rounded-circle bg-light ms-2 p-2" src={Gmail} style={{width: "2rem"}}/>
+                  <img className="img-fluid rounded rounded-circle ms-2 " src={Linkedin} style={{width: "2rem"}}/>
+                  <img className="img-fluid rounded rounded-circle ms-1" src={Instagram} style={{width: "3.2rem"}}/>
                 </p>
               </div>
           </div>
