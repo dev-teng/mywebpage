@@ -3,7 +3,7 @@ function About () {
   return(
     <div className="d-flex flex-column min-vh-100 aboutBackground">
       <div className="row mt-5 g-0 justify-content-center align-items-center" >
-          <div className="col-md-6 mt-5">
+          <div className="col-md-6 col-sm-12 mt-5">
             <div className="m-5 d-flex justify-content-center">
               <div className="border border-success rounded p-2">
                 <div className="border border-success rounded p-2">
@@ -12,11 +12,11 @@ function About () {
                       <div className="border border-success rounded p-2">
                         <div className="border border-success rounded p-2">
                             <div className="border border-success rounded p-2">
-                              <div className="card" style={{width: "20rem"}}>
-                                <div className="card-body bg-success-subtle">
+                              <div className="card" style={{maxWidth: "20rem", width: "100%", height: "100%", maxHeight: "20rem"}}>
+                                <div className="card-body bg-success-subtle rounded" style={{maxWidth: "20rem", width: "100%", height: "100%", maxHeight: "20rem"}}>
                                   <div className="bg-success rounded rounded-circle text-center">
-                                    <img className="img-fluid rounded-cirle" src={Enteng} style={{width: "10rem"}} />
-                                    <div className="card-title bg-light rounded border border-3 border-success p-4">
+                                    <img className="img-fluid rounded-cirle" src={Enteng} style={{maxWidth: "10rem"}} />
+                                    <div className="card-title bg-light rounded border border-3 border-success p-2">
                                       <h4 className="text-success">Front-end Developer</h4>
                                     </div>
                                   </div>
