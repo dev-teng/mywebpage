@@ -30,6 +30,28 @@
   z-index: -1;
 }
 
+.projectBackground {
+  background-image: url(/images/code.avif);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%; /* Make sure the width covers the entire viewport */
+  position: relative;
+  z-index: 1;
+}
+
+.projectBackground:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+  z-index: -1;
+}
+
 
 .welcome {
   font-family: "Handlee", cursive;
