@@ -22,7 +22,7 @@ function Navbar () {
 
   return(
     <div>
-      <nav class="navbar navbar-expand-lg navbar-transparent fixed-top shadow p-3">
+      <nav class="navbar navbar-expand-lg navbar-transparent fixed-top shadow p-1">
           <div class="container-fluid">
               <Link to="/" onClick={handleNavigation} class="navbar-brand"><img className="img-fluid rounded rounded-circle" style={{width: "4rem"}} src={Logo} /></Link>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -55,9 +55,9 @@ function Navbar () {
               </div>
               <div className="col-md-12">
                 <p className="text-light">@Copyright 2025. All rights served 
-                  <img className="img-fluid rounded rounded-circle bg-light ms-2 p-2" src={Gmail} style={{width: "2rem"}}/>
-                  <img className="img-fluid rounded rounded-circle ms-2 " src={Linkedin} style={{width: "2rem"}}/>
-                  <img className="img-fluid rounded rounded-circle ms-1" src={Instagram} style={{width: "3.2rem"}}/>
+                 <a href="https://mail.google.com/mail/u/0/#inbox" target="blank"><img className="img-fluid gmail rounded rounded-circle bg-light ms-2 p-2"src={Gmail} style={{width: "2rem"}}/></a> 
+                 <a href="https://www.linkedin.com/in/vincent-bobby-lacerna-6173b7279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img className="img-fluid linkedin rounded rounded-circle ms-2 " src={Linkedin} style={{width: "2rem"}}/></a> 
+                 <a href="https://www.instagram.com/vincentlacernaa?igsh=MjhjYzVxcjhnaTBs" target="blank"></a> <img className="img-fluid instagram rounded rounded-circle" src={Instagram} style={{width: "3.2rem"}}/>
                 </p>
               </div>
           </div>

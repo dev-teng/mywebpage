@@ -158,6 +158,15 @@
   font-style: normal;
   font-size: 1.6rem;
 }
+
+.gmail, .linkedin, .instagram {
+  filter: grayscale(1);
+  transition: .1s filter .1s;
+}
+
+.gmail:hover, .linkedin:hover, .instagram:hover {
+  filter: grayscale(0);
+}
 /*End Footer*/
 
 
