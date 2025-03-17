@@ -78,8 +78,15 @@
 .welcome {
   font-family: "Handlee", cursive;
   font-weight: 600;
- font-style: normal;
- font-size: 1.8rem
+  font-style: normal;
+  font-size: 1.8rem
+}
+
+.getInTouch {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
 }
 
 .greeting {
@@ -214,7 +221,21 @@
 /*End Footer*/
 
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-30px);
+  }
+  60% {
+      transform: translateY(-15px);
+  }
+}
 
+.hover-bounce:hover {
+  animation: bounce 1s;
+}
 
 
 

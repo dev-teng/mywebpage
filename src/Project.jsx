@@ -15,7 +15,7 @@ function Project () {
               </span>
             </h2>
             <div className="col-6 col-md-3 mb-2 g-2">
-              <div className="card bg-dark-subtle">
+              <div className="card bg-dark-subtle hover-bounce">
                 <div className="card-body">
                   <img className="img-fluid" src={Sb} />
                   <div className="card title p-2 mb-2 fw-bold">
@@ -26,7 +26,7 @@ function Project () {
               </div>
             </div>
             <div className="col-6 col-md-3 mb-2 g-2">
-              <div className="card bg-dark-subtle">
+              <div className="card bg-dark-subtle hover-bounce">
                 <div className="card-body">
                   <img className="img-fluid" src={Ngg} />
                   <div className="card title p-2 mb-2 fw-bold">
@@ -37,7 +37,7 @@ function Project () {
               </div>
             </div>
             <div className="col-6 col-md-3 mb-2 g-2">
-              <div className="card bg-dark-subtle">
+              <div className="card bg-dark-subtle hover-bounce">
                 <div className="card-body">
                   <img className="img-fluid" src={Pokeapi} />
                   <div className="card title p-2 mb-2 fw-bold">
@@ -48,7 +48,7 @@ function Project () {
               </div>
             </div>
             <div className="col-6 col-md-3 mb-2 g-2">
-              <div className="card bg-dark-subtle">
+              <div className="card bg-dark-subtle hover-bounce">
                 <div className="card-body">
                   <img className="img-fluid" src={Rps} />
                   <div className="card title p-2 mb-2 fw-bold">
@@ -61,7 +61,7 @@ function Project () {
         </div>
         <div className="row g-0">
           <div className="col-6 col-md-3 g-2 mb-2">
-            <div className="card bg-dark-subtle">
+            <div className="card bg-dark-subtle hover-bounce">
               <div className="card-body">
                 <img className="img-fluid" src={Empdashboard} />
                 <div className="card-title fw-bold">
@@ -72,7 +72,7 @@ function Project () {
             </div>
           </div>
           <div className="col-6 col-md-3 g-2 mb-2">
-            <div className="card bg-dark-subtle">
+            <div className="card bg-dark-subtle hover-bounce">
               <div className="card-body">
                 <img className="img-fluid" src={Campgyup} />
                 <div className="card-title fw-bold">
