@@ -21,7 +21,7 @@ function Contact () {
             <div className="card hover-bounce">
               <div className="card-body text-center">
                 <a className="text-dark link-underline link-underline-opacity-0" href="https://mail.google.com/mail/u/0/#inbox"><img className="img-fluid" src={Gmail} />
-                vnctlcrn@gmail.com</a>
+                gmail</a>
               </div>
             </div>
           </div>
