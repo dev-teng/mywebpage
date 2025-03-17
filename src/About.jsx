@@ -1,9 +1,10 @@
 import Enteng from "/images/enteng.png";
+import AosAnimation from "./AosAnimation";
 function About () {
   return(
     <div className="d-flex flex-column min-vh-100 aboutBackground">
       <div className="row mt-5 g-0 justify-content-center align-items-center" >
-          <div className="col-md-6 col-sm-12 mt-5">
+          <div data-aos="fade-up" className="col-md-6 col-sm-12 mt-5">
             <div className="m-5 d-flex justify-content-center">
               <div className="border border-success rounded p-2">
                 <div className="border border-success rounded p-2">
@@ -28,8 +29,9 @@ function About () {
                 </div>
               </div>
             </div>  
+            <AosAnimation />
           </div>
-          <div className="col-md-6 mb-2">
+          <div data-aos="fade-up" className="col-md-6 mb-2">
             <div className="container">
                 <div className="container mt-5 me-5 border border-success rounded d-flex flex-column justify-content-center align-items-center">
                   <h1 className="text-light">Hi I'm VINCENT <span className="text-success">LACERNA</span>👋🏻</h1>
@@ -45,8 +47,8 @@ function About () {
                           to best practices and industry standards.
                       </p>
                 </div>
-              
             </div>
+            <AosAnimation />
           </div>
       </div>
       
