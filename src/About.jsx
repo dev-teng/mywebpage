@@ -12,16 +12,14 @@ function About () {
                       <div className="border border-success rounded p-2">
                         <div className="border border-success rounded p-2">
                             <div className="border border-success rounded p-2">
-                              <div className="card" style={{maxWidth: "22rem", width: "100%", height: "100%", maxHeight: "22rem"}}>
-                                <div className="card-body bg-success-subtle rounded" style={{maxWidth: "22rem", width: "100%", height: "100%", maxHeight: "22rem"}}>
-                                  <div className="bg-success rounded rounded-circle text-center">
-                                    <img className="img-fluid rounded-cirle" src={Enteng} style={{maxWidth: "10rem"}} />
-                                    <div className="card-title bg-light rounded border border-3 border-success p-3">
+                                <div className="card-body bg-success-subtle rounded p-2" >
+                                  <div className="bg-success rounded rounded-circle text-center" style={{maxWidth: "22rem", width: "100%", height: "100%", maxHeight: "22rem"}}>
+                                    <img className="img-fluid rounded-cirle" src={Enteng} style={{width: "100%", maxWidth: "14rem"}} />
+                                    <div className="card-title bg-light rounded border border-3 border-success p-2">
                                       <h5 className="text-success fw-bold">Front-end Developer</h5>
                                     </div>
                                   </div>
                                 </div>
-                              </div>
                             </div>
                         </div>
                       </div>

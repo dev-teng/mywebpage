@@ -52,6 +52,28 @@
   z-index: -1;
 }
 
+.contactBackground {
+  background-image: url(/images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%; /* Make sure the width covers the entire viewport */
+  position: relative;
+  z-index: 1;
+}
+
+
+.contactBackground::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+  z-index: -1;
+}
 
 .welcome {
   font-family: "Handlee", cursive;
@@ -167,7 +189,7 @@
 
 /* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
-  background-color: black;
+  background-color: white;
 }
 
 /*End of Navigation Bar*/
