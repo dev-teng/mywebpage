@@ -19,7 +19,7 @@ function Home() {
                     and ideas. Feel free to explore and get in touch if you’d like to 
                     collaborate!
                     <br></br>
-                    <button className='mt-3 btn btn-lg btn-warning resume'>Download CV</button>
+                    <a href='/images/resume.pdf'><button className='mt-3 btn btn-lg btn-warning resume'>Download CV</button></a>
                   </h5>
                   <AosAnimation />
                 </div>

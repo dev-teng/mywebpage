@@ -57,7 +57,7 @@ function Project () {
                 <div className="card-body">
                   <img className="img-fluid" src={Rps} />
                   <div className="card title p-2 mb-2 fw-bold">
-                    Rock Paper Scissors
+                    RPS Game
                   </div>
                     <a href="https://dev-teng.github.io/rock-paper-scissor/" className="btn btn-dark d-grid">View project ➡️ </a>
                 </div>

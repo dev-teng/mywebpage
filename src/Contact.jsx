@@ -29,7 +29,7 @@ function Contact () {
             <AosAnimation />
           </div>
 
-          <div data-aos="fade-up" className="col-6 g-2 col-md-3 mt-5">
+          <div data-aos="fade-up" className="col-6 g-2 col-md-3 mt-5 mt-auto">
             <div className="card hover-bounce">
               <div className="card-body text-center">
               <a className="text-dark link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/vincent-bobby-lacerna-6173b7279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img className="img-fluid" src={Linkedin} />
