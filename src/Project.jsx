@@ -70,7 +70,7 @@ function Project () {
             <div className="card bg-dark-subtle hover-bounce">
               <div className="card-body">
                 <img className="img-fluid" src={Empdashboard} />
-                <div className="card-title fw-bold">
+                <div className="card-title fw-bold p-2 bg-light rounded">
                   Sample Employee dashboard
                 </div>
                 <a href="https://project4-xi-three.vercel.app/" className="btn btn-dark d-grid">View project ➡️</a>
@@ -82,7 +82,7 @@ function Project () {
             <div className="card bg-dark-subtle hover-bounce">
               <div className="card-body">
                 <img className="img-fluid" src={Campgyup} />
-                <div className="card-title fw-bold">
+                <div className="card-title fw-bold bg-light p-2 rounded">
                   Campgyup Cafe = Camping / Samgyup
                 </div>
                 <a href="https://capstone-ten-weld.vercel.app/" className="btn btn-dark d-grid">View project ➡️</a>
